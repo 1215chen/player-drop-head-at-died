@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "playerdrophead",
+	"version": "${version}",
+	"name": "Player Drop Head",
+	"description": "玩家死亡后掉落自己的头颅",
+	"authors": [
+		"cyhao"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.playerdrophead.PlayerDropHeadMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

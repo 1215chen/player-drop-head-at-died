@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+
+# Loom / Fabric 运行目录
+run/
+logs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# 本地构建工具（本环境临时目录）
+.gradle-dist/
+.gradle-home/
+
+# Java
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
